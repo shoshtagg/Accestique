@@ -16,6 +16,7 @@
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.28",
     "@supabase/supabase-js": "^2.39.3",
+    "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.0",
     "dotenv": "^17.2.3",
     "lucide-react": "^0.330.0",
