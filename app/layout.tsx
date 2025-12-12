@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Terminal } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react"; // 1. Import ajouté ici
 
 const inter = Inter({ 
     subsets: ["latin"],
@@ -155,6 +156,10 @@ export default function RootLayout({
                         </div>
                     </footer>
                 </div>
+                
+                {/* 2. Balise Analytics ajoutée ici */}
+                <Analytics />
+                
             </body>
         </html>
     );
